@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
-
+import MyComponent from "./MyComponent";
 function App() {
   const name = "react";
 
-  return <div className='react'>{name}</div>;
+  return <MyComponent favoriteNumber={123}>hi </MyComponent>;
 }
+
+
 
 export default App;
